@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="./js/app.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header> Weather</header>
+      <section class="input_part">
+        <p class="info_text">Please enter a valid info</p>
+        <div class="content">
+          <input type="text" placeholder="Enter city name" required />
+        </div>
+      </section>
+      <section class="weather_part">
+        <img src="" alt="" />
+        <div class="temp">
+          <span class="numb"></span>
+          <span class="deg">°</span>C
+        </div>
+        <div class="weather"></div>
+        <div class="location">
+          <i class="fa-solid fa-location-dot"></i>
+          <span></span>
+        </div>
+        <div class="bottom_details">
+          <div class="column feels">
+            <i class="fa-solid fa-temperature-full"></i>
+            <div class="details">
+              <div class="temp">
+                <span class="numb numb2"></span>
+                <span class="deg">°</span>C
+              </div>
+              <p>Feels Like</p>
+            </div>
+          </div>
+          <div class="column humidity">
+            <i class="fa-solid fa-droplet"></i>
+            <div class="details">
+              <span class="numb "></span>
+              <p>Humidity</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
